@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="js.html">JS</a>
+            <a href="other.html">Inne notatki</a>
+        </nav>
+    </header>
+    <main>
+        <header id="top">
+            <h1 class="primary-heading">Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend" prowadzonym przez Macieja Korsana.
+            </h1>
+        </header>
+        <img src="images/css.png" alt="Logo CSS">
+        <section>
+            <h2 class="secondary-heading">CSS</h2>
+            <article>
+                <h3 class="tertiary-heading">CSS - lekcja I</h3>
+                <p>Konstrukcja reguł CSS wygląda w następujący sposób: selektor { właściwość: wartość; }. Możemy
+                    stworzyć w dokumencie HTML na końcu head tag "style", ale lepszą praktyką jest wstawić w to miejsce
+                    link: 'href="style.css" rel="stylesheet" type="text/css"'. Właściwości background i color dają
+                    możliwość wyboru koloru. Kolor może mieć swoją nazwę, bądź być zapisany w formacie #dddddd.
+                </p>
+                <h3 class="tertiary-heading">CSS - lekcja II</h3>
+                <p>Możemy dodać atrybut style do znacznika, tzw. styl inline. Stylowanie jest też możliwe po #id (jako
+                    atrybut w znaczniku, tzw. selektor id, tworzymy jedno na stronie), .class (również atrybut w
+                    znaczniku; tzw. selektor klasy) i po elemencie. Możemy dodać ścieżkę np. 'nav a' będzie stylować
+                    linki w nav bez samego nav. Nie używamy !important po właściwości bo nadpisuje wszystkie
+                    zdefiniowane właściwości. Kolejność rozpatrywania stylów od najważniejszego: important, style, id,
+                    class, element. Stylowanie bliżej elementu w pliku (bądź w niższej linii) ma pierwszeństwo. Warto
+                    dodawać klasy do wszystkich elementów, ale tylko jedną do każdego rodzaju.
+                </p>
+                <h3 class="tertiary-heading">CSS - przydatne linki</h3>
+                <p>
+                    <a href="https://www.w3.org/TR/CSS/">Oficjalna dokumntacja CSS</a><br />
+                    <a href="https://coolors.co/">Generator dopasowywania kolorów</a>
+                </p>
+            </article>
+        </section>
+        <footer class=footer>Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana. <a
+                href="#top">Wróć na górę strony.</a></footer>
+        <script src="main.js"></script>
+    </main>
+</body>
+
+</html>

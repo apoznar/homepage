@@ -1,0 +1,43 @@
+/* Elements */
+
+body {
+    background: #fefefe;
+}
+
+section {
+    background: white;
+}
+
+h1 {
+    color:blue;
+}
+
+p {
+    color: gray;
+}
+
+h2 {
+    color: #1460AA;
+}
+
+/* Classes */
+
+.header {
+    color: yellow;
+}
+
+.footer {
+    color: green;
+}
+
+.primary-heading {
+    background-color: honeydew;
+}
+
+.secondary-heading {
+    background-color: indianred;
+}
+
+.tertiary-heading {
+    background-color: lightcyan;
+}

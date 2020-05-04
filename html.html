@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="js.html">JS</a>
+            <a href="other.html">Inne notatki</a>
+        </nav>
+    </header>
+    <main>
+        <header id="top">
+            <h1 class="primary-heading">Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend" prowadzonym przez Macieja Korsana.
+            </h1>
+        </header>
+        <img src="images/html.png" alt="Logo HTML">
+        <section>
+            <h2 class="secondary-heading">HTML</h2>
+            <h3 class="tertiary-heading">HTML - lekcja I</h3>
+            <p>Dokument HTML dzielimy na części head i body. W części body możemy wyróżnić części main, section,
+                article, header, footer. Możemy stworzyć także nagłówki h1-h6 oraz paragrafy - p.</p>
+            <h3 class="tertiary-heading">HTML - lekcja II</h3>
+            <p>Samozamykający znacznik br/ rozpoczyna nową linię.<br />
+                Znacznik <b>b</b> pogrubia, a <i>i</i> tworzy kursywę. Znaczniki <strong>strong</strong> i <em>em</em>
+                działają odpowiednio podobnie, ale mają za to znaczenie semantyczne. Inny znacznik 'a' może zawierać
+                linki/łącza wewnątrz dokumentu, ma atrybuty href="" i target="". W href podajemy adres, do którego
+                prowadzi klikniecie w znacznik. Atrybut w elemencie id="moj-identyfikator" identyfikuje element,
+                wprowadzenie go do znacznika a jeżeli zapiszemy go w href="#moj-identyfikator" po kliknięciu przenosi do
+                oznaczonego miejsca w obrębie strony . Znacznik nav tworzy nawigację strony - w części body tworzymy
+                header z nav (zaraz nad mainem aby przenosić się do różnych stron powiązanych linkiem. Inny znacznik -
+                img z atrybutami src i alt pozwala nam na dołączenie dowolnego obrazka z podanego źródła i tekstem
+                alternatywnym. </p>
+            <h3 class="tertiary-heading">HTML - przydatne linki</h3>
+            <p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">Spis globalnych atrybutów
+                    HTML</a><br />
+                <a href="https://www.w3.org/TR/html52/">Oficjalna dokumntacja HTML</a><br />
+                <a href="https://validator.w3.org/nu/#textarea">Strona do sprawdzenia poprawności kodu HTML</a>
+            </p>
+        </section>
+        <footer class=footer>Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana. <a
+                href="#top">Wróć na górę strony.</a></footer>
+        <script src="main.js"></script>
+    </main>
+</body>
+
+</html>

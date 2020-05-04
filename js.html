@@ -1,45 +1,67 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="html.html">HTML</a>
-            <a href="css.html">CSS</a>
-            <a href="js.html">JS</a>
-            <a href="other.html">Inne notatki</a>
-        </nav>
+      <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="html.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="js.html">JS</a>
+        <a href="other.html">Inne notatki</a>
+      </nav>
     </header>
     <main>
-        <header id="top">
-            <h1 class="primary-heading">Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend" prowadzonym przez Macieja Korsana.
-            </h1>
-        </header>
-        <img src="images/js.png" alt="Logo JS">
-        <section>
-            <h2 class="secondary-heading">Javascript ES6+</h2>
-            <article>
-                <h3 class="tertiary-heading">JS ES6+ - lekcja I</h3>
-                <p>Kod Javascript przechowujemy w pliku main.js i odniesienie do niego wpisujemy poprzez znacznik script
-                    src="" na samym dole przed zamknięciem body. Jedna z podstawowych funkcji to alert('siema!'); -
-                    otwierające okno z wiadomością i console.log('siema!') - drukujące wiadomość w konsoli. Zmienne
-                    tworzymy formułą const a = 'Adam'; Backtick ` używany np w funkcji console.log('Zmienna ${a}'),
-                    gdzie podstawia się wcześniej stworzona zmienna.
-                </p>
-            </article>
-        </section>
-        <footer class=footer>Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana. <a
-                href="#top">Wróć na górę strony.</a></footer>
-        <script src="main.js"></script>
+      <header id="top">
+        <h1 class="primary-heading">
+          Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
+          prowadzonym przez Macieja Korsana.
+        </h1>
+      </header>
+      <img src="images/js.png" alt="Logo JS" />
+      <section>
+        <h2 class="secondary-heading">Javascript ES6+</h2>
+        <article>
+          <h3 class="tertiary-heading">JS ES6+ - lekcja I</h3>
+          <p>
+            Kod Javascript przechowujemy w pliku main.js i odniesienie do niego
+            wpisujemy poprzez znacznik script src="" na samym dole przed
+            zamknięciem body. Jedna z podstawowych funkcji to alert('siema!'); -
+            otwierające okno z wiadomością i console.log('siema!') - drukujące
+            wiadomość w konsoli. Zmienne tworzymy formułą const a = 'Adam';
+            Backtick ` używany np w funkcji console.log('Zmienna ${a}'), gdzie
+            podstawia się wcześniej stworzona zmienna.
+          </p>
+          <h3 class="tertiary-heading">JS ES6+ - lekcja II</h3>
+          <p>
+            Zmienne let (definiowanie kilka razy jest możliwe), const
+            (niezmienialna) i var (już nieużywany). Typy proste - String (''),
+            number, bigint, boolean, null, undefined, *symbol. wyrażenie typeof
+            sprawdza typ. Nie możemy zmieniać wartości, zmieniamy połączenia
+            między nimi a zmiennymi (niemutowalność).
+          </p>
+          <h3 class="tertiary-heading">DOM</h3>
+          <p>
+            Document Object Model - model dokumentu obecny na stronie. Musimy
+            wpisać kod w JS document.querySelector('.selector') wykorzystując
+            selektor CSS. Wydruk w konsoli pokazuje dokładnie ten element (można
+            podać pod zmienną). Inna komenda -
+            nazwaZmiennejQuerySelector.innerHTML = 'treść' pozwala na
+            modyfikację elementu i nadpisanie go (to nie jest typ prosty).
+          </p>
+        </article>
+      </section>
+      <footer class="footer">
+        Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
+        <a href="#top">Wróć na górę strony.</a>
+      </footer>
+      <script src="main.js"></script>
     </main>
-</body>
-
+  </body>
 </html>

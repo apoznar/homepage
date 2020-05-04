@@ -1,43 +1,43 @@
 /* Elements */
 
 body {
-    background: #fefefe;
+  background: #fefefe;
 }
 
 section {
-    background: white;
+  background: white;
 }
 
 h1 {
-    color:blue;
+  color: blue;
 }
 
 p {
-    color: gray;
+  color: gray;
 }
 
 h2 {
-    color: #1460AA;
+  color: #1460aa;
 }
 
 /* Classes */
 
 .header {
-    color: yellow;
+  color: yellow;
 }
 
 .footer {
-    color: green;
+  color: green;
 }
 
 .primary-heading {
-    background-color: honeydew;
+  background-color: honeydew;
 }
 
 .secondary-heading {
-    background-color: indianred;
+  background-color: indianred;
 }
 
 .tertiary-heading {
-    background-color: lightcyan;
+  background-color: lightcyan;
 }

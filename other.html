@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="html.html">HTML</a>
-            <a href="css.html">CSS</a>
-            <a href="js.html">JS</a>
-            <a href="other.html">Inne notatki</a>
-        </nav>
+      <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="html.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="js.html">JS</a>
+        <a href="other.html">Inne notatki</a>
+      </nav>
     </header>
     <main>
-        <header id="top">
-            <h1 class="primary-heading">Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
-                prowadzonym przez Macieja Korsana.
-            </h1>
-        </header>
-        <img src="images/frontend.png" alt="Technologie frontend">
-        <section>
-            <h2 class="secondary-heading">Wiedza związana z technologiami frontendowymi</h2>
-            <article>
-                <h3 class="tertiary-heading">Różne ciekawostki</h3>
-                <p>Kombinacja alt+shift+F automatycznie czyści kod w Visual Studio Code. Wykrzyknik oraz tabulator
-                    automatycznie wypełnia sekcję head. Metoda Kanban (Todo, Doing - jedna rzecz, Done)
-                    wykorzystywana jest w Trello. Pamiętaj o sposobach zapisu - camelCase, kebab-case, snake_case,
-                    PascalCase. Kody odpowiedzi serwera: 200 to normalny odczyt strony, 30x to przekierowania, 404 to
-                    brak strony, 50x to błąd wewnętrzny serwera. Musimy pamiętać o roocie(/) w ścieżce do zasobu (jeżeli
-                    strona jest postawiona na zewnętrznym serwerze).</p>
-                <p>Terminal ma na Windowsie formę wiersza poleceń (cmd). Komenda dir pokazuje spis plików w
-                    folderze, cd przechodzi do wskazanego pliku (tab podpowiada nazwę pliku), mkdir
-                    nazwa tworzy folder, code . uruchamia vsc. cd .. przenosi do folderu wyżej w strukturze.
-                </p>
-                <h3 class="tertiary-heading">GIT & GitHub</h3>
-                <p>System kontroli wersji. Komendy w bashu: git --version (sprawdza wersję), git config --global
-                    user.name "Jan Nowak" (nadaje nazwę użytkownika), git config --global user.email
-                    jannowak@example.com (nadaje maila uzytkownika). Git config --get user.name sprawdza poprawność. Git
-                    init inicjalizuje repozytorium. Git status pokazuje status projektu. Git add . dodaje do śledzenia
-                    wszystkie pliki w repozytorium. Git commit -m "initial commit" zatwierdza zmiany z komentarzem -
-                    warto commitować często. Gitk pokazuje historię commitów. Clear czyści terminal. Zainstalowane
-                    rozszerzenie Git Lens.
-                </p>
-            </article>
-        </section>
-        <footer class=footer>Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana. <a
-                href="#top">Wróć na górę
-                strony.</a></footer>
-        <script src="main.js"></script>
+      <header id="top">
+        <h1 class="primary-heading">
+          Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
+          prowadzonym przez Macieja Korsana.
+        </h1>
+      </header>
+      <img src="images/frontend.png" alt="Technologie frontend" />
+      <section>
+        <h2 class="secondary-heading">
+          Wiedza związana z technologiami frontendowymi
+        </h2>
+        <article>
+          <h3 class="tertiary-heading">Różne ciekawostki</h3>
+          <p>
+            Kombinacja alt+shift+F automatycznie czyści kod w Visual Studio
+            Code. Wykrzyknik oraz tabulator automatycznie wypełnia sekcję head.
+            Metoda Kanban (Todo, Doing - jedna rzecz, Done) wykorzystywana jest
+            w Trello. Pamiętaj o sposobach zapisu - camelCase, kebab-case,
+            snake_case, PascalCase. Kody odpowiedzi serwera: 200 to normalny
+            odczyt strony, 30x to przekierowania, 404 to brak strony, 50x to
+            błąd wewnętrzny serwera. Musimy pamiętać o roocie(/) w ścieżce do
+            zasobu (jeżeli strona jest postawiona na zewnętrznym serwerze).
+          </p>
+          <p>
+            Terminal ma na Windowsie formę wiersza poleceń (cmd). Komenda dir
+            pokazuje spis plików w folderze, cd przechodzi do wskazanego pliku
+            (tab podpowiada nazwę pliku), mkdir nazwa tworzy folder, code .
+            uruchamia vsc. cd .. przenosi do folderu wyżej w strukturze.
+          </p>
+          <p>
+            Ciekawe rozszerzenia do VSC - Prettier (formater kodu) oraz Live
+            Server (podgląd dynamiczny strony, dzięki ip config możemy dostać ip
+            i podejrzeć plik z innej lokalizacji).
+          </p>
+          <h3 class="tertiary-heading">GIT & GitHub</h3>
+          <p>
+            System kontroli wersji. Komendy w bashu: git --version (sprawdza
+            wersję), git config --global user.name "Jan Nowak" (nadaje nazwę
+            użytkownika), git config --global user.email jannowak@example.com
+            (nadaje maila uzytkownika). Git config --get user.name sprawdza
+            poprawność. Git init inicjalizuje repozytorium. Git status pokazuje
+            status projektu. Git add . dodaje do śledzenia wszystkie pliki w
+            repozytorium. Git commit -m "initial commit" zatwierdza zmiany z
+            komentarzem - warto commitować często. Gitk pokazuje historię
+            commitów. Clear czyści terminal. Zainstalowane rozszerzenie Git
+            Lens. Na końcu piszemy git push aby przesunąć zmiany na GitHuba.
+          </p>
+        </article>
+      </section>
+      <footer class="footer">
+        Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
+        <a href="#top">Wróć na górę strony.</a>
+      </footer>
+      <script src="main.js"></script>
     </main>
-</body>
-
+  </body>
 </html>

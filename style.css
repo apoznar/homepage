@@ -10,14 +10,22 @@ section {
 
 h1 {
   color: blue;
+  text-align: center;
 }
 
 p {
   color: gray;
+  text-align: justify;
+  width: auto;
 }
 
 h2 {
   color: #1460aa;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 /* Classes */

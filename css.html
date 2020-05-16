@@ -8,27 +8,27 @@
   </head>
 
   <body>
-    <header class="header">
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="js.html">JS</a>
-        <a href="other.html">Inne notatki</a>
+    <header class="css__header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
+        <a class="navigation__link navigation__link--css" href="css.html">CSS</a>
+        <a class="navigation__link navigation__link--js" href="js.html">JS</a>
+        <a class="navigation__link navigation__link--other" href="other.html">Inne notatki</a>
       </nav>
     </header>
-    <main>
-      <header id="top">
-        <h1 class="primary-heading">
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="primary__heading">
           Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
           prowadzonym przez Macieja Korsana.
         </h1>
       </header>
-      <img src="images/css.png" alt="Logo CSS" />
+      <img class="css__image" src="images/css.png" alt="Logo CSS" />
       <section>
-        <h2 class="secondary-heading">CSS</h2>
+        <h2 class="secondary__heading">CSS</h2>
         <article>
-          <h3 class="tertiary-heading">CSS - lekcja I</h3>
+          <h3 class="tertiary__heading">CSS - lekcja I</h3>
           <p>
             Konstrukcja reguł CSS wygląda w następujący sposób: selektor {
             właściwość: wartość; }. Możemy stworzyć w dokumencie HTML na końcu
@@ -37,7 +37,7 @@
             Właściwości background i color dają możliwość wyboru koloru. Kolor
             może mieć swoją nazwę, bądź być zapisany w formacie #dddddd.
           </p>
-          <h3 class="tertiary-heading">CSS - lekcja II</h3>
+          <h3 class="tertiary__heading">CSS - lekcja II</h3>
           <p>
             Możemy dodać atrybut style do znacznika, tzw. styl inline.
             Stylowanie jest też możliwe po #id (jako atrybut w znaczniku, tzw.
@@ -50,7 +50,7 @@
             pliku (bądź w niższej linii) ma pierwszeństwo. Warto dodawać klasy
             do wszystkich elementów, ale tylko jedną do każdego rodzaju.
           </p>
-          <h3 class="tertiary-heading">Życie w pudełku</h3>
+          <h3 class="tertiary__heading">Życie w pudełku</h3>
           <p>
             Właściwość display: block sprawi, że kontener div będzie widoczny w
             bloku (elementy będą pod sobą), a inline sprawia że ustawiają się
@@ -77,14 +77,14 @@
             niego layoutu (treść opływa ten element, możemy użyć własności float
             z kierunkiem, clear: both).
           </p>
-          <h3 class="tertiary-heading">BEM - Block element modifier</h3>
+          <h3 class="tertiary__heading">BEM - Block element modifier</h3>
           <p>
             Sposób nazewnictwa ułatwiający pracę np. div z klasą hand ma w sobie
             div z klasami hand__finger i hand__finger--thumb jako oznaczenie
             kciuka. W pliku CSS główna klasa najpierw, a potem jej dzieci.
             Używamy pełnych nazw klas, bez skrótów.
           </p>
-          <h3 class="tertiary-heading">CSS - przydatne linki</h3>
+          <h3 class="tertiary__heading">CSS - przydatne linki</h3>
           <p>
             <a href="https://www.w3.org/TR/CSS/">Oficjalna dokumntacja CSS</a
             ><br />
@@ -97,7 +97,7 @@
       </section>
       <footer class="footer">
         Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
-        <a href="#top">Wróć na górę strony.</a>
+        <a class="footer__link" href="#top">Wróć na górę strony.</a>
       </footer>
       <script src="main.js"></script>
     </main>

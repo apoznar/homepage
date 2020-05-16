@@ -8,30 +8,32 @@
   </head>
 
   <body>
-    <header class="header">
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="js.html">JS</a>
-        <a href="other.html">Inne notatki</a>
+    <header class="index__header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
+        <a class="navigation__link navigation__link--css" href="css.html">CSS</a>
+        <a class="navigation__link navigation__link--js" href="js.html">JS</a>
+        <a class="navigation__link navigation__link--other" href="other.html">Inne notatki</a>
       </nav>
     </header>
-    <main>
-      <header id="top">
-        <h1 class="primary-heading">
+
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="primary__heading">
           Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
           prowadzonym przez Macieja Korsana.
         </h1>
-        <p>
+        <p class="index__description" >
           To jest strona główna. Aby przejść do odpowiedniej sekcji kliknij na
           odpowiedni tytuł w oknie nawigacyjnym.
         </p>
       </header>
-      <img src="images/wtf.png" alt="Logo kursu WTF" />
+
+      <img class="index__picture" src="images/wtf.png" alt="Logo kursu WTF" />
       <footer class="footer">
         Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
-        <a href="#top">Wróć na górę strony.</a>
+        <a class="footer__link" href="#top">Wróć na górę strony.</a>
       </footer>
       <script src="main.js"></script>
     </main>

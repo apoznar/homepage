@@ -38,14 +38,19 @@ h3 {
   color: green;
 }
 
-.primary-heading {
+.primary__heading {
   background-color: honeydew;
 }
 
-.secondary-heading {
+.secondary__heading {
   background-color: indianred;
 }
 
-.tertiary-heading {
+.tertiary__heading {
   background-color: lightcyan;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
 }

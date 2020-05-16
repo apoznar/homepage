@@ -8,29 +8,29 @@
   </head>
 
   <body>
-    <header class="header">
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="js.html">JS</a>
-        <a href="other.html">Inne notatki</a>
+    <header class="other__header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
+        <a class="navigation__link navigation__link--css" href="css.html">CSS</a>
+        <a class="navigation__link navigation__link--js" href="js.html">JS</a>
+        <a class="navigation__link navigation__link--other" href="other.html">Inne notatki</a>
       </nav>
     </header>
-    <main>
-      <header id="top">
-        <h1 class="primary-heading">
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="primary__heading">
           Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
           prowadzonym przez Macieja Korsana.
         </h1>
       </header>
-      <img src="images/frontend.png" alt="Technologie frontend" />
+      <img class="other__image" src="images/frontend.png" alt="Technologie frontend" />
       <section>
-        <h2 class="secondary-heading">
+        <h2 class="secondary__heading">
           Wiedza związana z technologiami frontendowymi
         </h2>
         <article>
-          <h3 class="tertiary-heading">Różne ciekawostki</h3>
+          <h3 class="tertiary__heading">Różne ciekawostki</h3>
           <p>
             Kombinacja alt+shift+F automatycznie czyści kod w Visual Studio
             Code. Wykrzyknik oraz tabulator automatycznie wypełnia sekcję head.
@@ -52,7 +52,7 @@
             Server (podgląd dynamiczny strony, dzięki ip config możemy dostać ip
             i podejrzeć plik z innej lokalizacji).
           </p>
-          <h3 class="tertiary-heading">GIT & GitHub</h3>
+          <h3 class="tertiary__heading">GIT & GitHub</h3>
           <p>
             System kontroli wersji. Komendy w bashu: git --version (sprawdza
             wersję), git config --global user.name "Jan Nowak" (nadaje nazwę
@@ -69,7 +69,7 @@
       </section>
       <footer class="footer">
         Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
-        <a href="#top">Wróć na górę strony.</a>
+        <a class="footer__link" href="#top">Wróć na górę strony.</a>
       </footer>
       <script src="main.js"></script>
     </main>

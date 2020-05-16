@@ -8,27 +8,27 @@
   </head>
 
   <body>
-    <header class="header">
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="js.html">JS</a>
-        <a href="other.html">Inne notatki</a>
+    <header class="js__header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
+        <a class="navigation__link navigation__link--css" href="css.html">CSS</a>
+        <a class="navigation__link navigation__link--js" href="js.html">JS</a>
+        <a class="navigation__link navigation__link--other" href="other.html">Inne notatki</a>
       </nav>
     </header>
-    <main>
-      <header id="top">
-        <h1 class="primary-heading">
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="primary__heading">
           Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
           prowadzonym przez Macieja Korsana.
         </h1>
       </header>
-      <img src="images/js.png" alt="Logo JS" />
+      <img class="js__image" src="images/js.png" alt="Logo JS" />
       <section>
-        <h2 class="secondary-heading">Javascript ES6+</h2>
+        <h2 class="secondary__heading">Javascript ES6+</h2>
         <article>
-          <h3 class="tertiary-heading">JS ES6+ - lekcja I</h3>
+          <h3 class="tertiary__heading">JS ES6+ - lekcja I</h3>
           <p>
             Kod Javascript przechowujemy w pliku main.js i odniesienie do niego
             wpisujemy poprzez znacznik script src="" na samym dole przed
@@ -38,7 +38,7 @@
             Backtick ` używany np w funkcji console.log('Zmienna ${a}'), gdzie
             podstawia się wcześniej stworzona zmienna.
           </p>
-          <h3 class="tertiary-heading">JS ES6+ - lekcja II</h3>
+          <h3 class="tertiary__heading">JS ES6+ - lekcja II</h3>
           <p>
             Zmienne let (definiowanie kilka razy jest możliwe), const
             (niezmienialna) i var (już nieużywany). Typy proste - String (''),
@@ -46,7 +46,7 @@
             sprawdza typ. Nie możemy zmieniać wartości, zmieniamy połączenia
             między nimi a zmiennymi (niemutowalność).
           </p>
-          <h3 class="tertiary-heading">DOM</h3>
+          <h3 class="tertiary__heading">DOM</h3>
           <p>
             Document Object Model - model dokumentu obecny na stronie. Musimy
             wpisać kod w JS document.querySelector('.selector') wykorzystując
@@ -59,7 +59,7 @@
       </section>
       <footer class="footer">
         Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
-        <a href="#top">Wróć na górę strony.</a>
+        <a class="footer__link" href="#top">Wróć na górę strony.</a>
       </footer>
       <script src="main.js"></script>
     </main>

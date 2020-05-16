@@ -8,32 +8,34 @@
   </head>
 
   <body>
-    <header class="header">
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="js.html">JS</a>
-        <a href="other.html">Inne notatki</a>
+    <header class="html__header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
+        <a class="navigation__link navigation__link--css" href="css.html">CSS</a>
+        <a class="navigation__link navigation__link--js" href="js.html">JS</a>
+        <a class="navigation__link navigation__link--other" href="other.html">Inne notatki</a>
       </nav>
     </header>
-    <main>
-      <header id="top">
-        <h1 class="primary-heading">
+
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="primary__heading">
           Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
           prowadzonym przez Macieja Korsana.
         </h1>
       </header>
-      <img src="images/html.png" alt="Logo HTML" />
+      <img class="html__image" src="images/html.png" alt="Logo HTML" />
+      
       <section>
-        <h2 class="secondary-heading">HTML</h2>
-        <h3 class="tertiary-heading">HTML - lekcja I</h3>
+        <h2 class="secondary__heading">HTML</h2>
+        <h3 class="tertiary__heading">HTML - lekcja I</h3>
         <p>
           Dokument HTML dzielimy na części head i body. W części body możemy
           wyróżnić części main, section, article, header, footer. Możemy
           stworzyć także nagłówki h1-h6 oraz paragrafy - p.
         </p>
-        <h3 class="tertiary-heading">HTML - lekcja II</h3>
+        <h3 class="tertiary__heading">HTML - lekcja II</h3>
         <p>
           Samozamykający znacznik br/ rozpoczyna nową linię.<br />
           Znacznik <b>b</b> pogrubia, a <i>i</i> tworzy kursywę. Znaczniki
@@ -50,13 +52,13 @@
           src i alt pozwala nam na dołączenie dowolnego obrazka z podanego
           źródła i tekstem alternatywnym.
         </p>
-        <h3 class="tertiary-heading">Życie w pudełku</h3>
+        <h3 class="tertiary__heading">Życie w pudełku</h3>
         <p>
           Do opakowania treści używamy znacznika div z klasą box. Elementy
           pudełka od zewnątrz: margin (margines), border (obramowanie), padding
           (wewnętrzny margines) oraz element.
         </p>
-        <h3 class="tertiary-heading">HTML - przydatne linki</h3>
+        <h3 class="tertiary__heading">HTML - przydatne linki</h3>
         <p>
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes"
@@ -69,9 +71,10 @@
           >
         </p>
       </section>
+      
       <footer class="footer">
         Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
-        <a href="#top">Wróć na górę strony.</a>
+        <a class="footer__link" href="#top">Wróć na górę strony.</a>
       </footer>
       <script src="main.js"></script>
     </main>

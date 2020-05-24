@@ -11,11 +11,19 @@
   <body>
     <header class="other__header">
       <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
-        <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
-        <a class="navigation__link navigation__link--css" href="css.html">CSS</a>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link navigation__link--html" href="html.html"
+          >HTML</a
+        >
+        <a class="navigation__link navigation__link--css" href="css.html"
+          >CSS</a
+        >
         <a class="navigation__link navigation__link--js" href="js.html">JS</a>
-        <a class="navigation__link navigation__link--other" href="other.html">Inne notatki</a>
+        <a class="navigation__link navigation__link--other" href="other.html"
+          >Inne notatki</a
+        >
       </nav>
     </header>
     <main class="main">
@@ -25,7 +33,11 @@
           prowadzonym przez Macieja Korsana.
         </h1>
       </header>
-      <img class="other__image" src="images/frontend.png" alt="Technologie frontend" />
+      <img
+        class="other__image"
+        src="images/frontend.png"
+        alt="Technologie frontend"
+      />
       <section>
         <h2 class="secondary__heading">
           Wiedza związana z technologiami frontendowymi
@@ -65,6 +77,24 @@
             komentarzem - warto commitować często. Gitk pokazuje historię
             commitów. Clear czyści terminal. Zainstalowane rozszerzenie Git
             Lens. Na końcu piszemy git push aby przesunąć zmiany na GitHuba.
+            Możemy też uwidocznić stronę na GitHub Pages poprzez ustawienia
+            repozytorium, zmieniamy source na branch i używamy linka powyżej.
+          </p>
+          <h3 class="tertiary__heading">Hamburger Menu</h3>
+          <p>
+            Potrzeba nawigacji, styl do nawigacji na mobile, na desktop,
+            przycisk do pokazywania/ukrywania (zmiana klasy), kod js do
+            podpięcia się pod przycisk i kod js do zmiany klasy. Nadawanie i
+            usuwanie klasy -
+            element.classList.add/remove/toggle/contains[wyrażenie
+            logiczne]('klasa-z-js').Rozpoczynając od początku mamy element nav,
+            potem np. zmieniamy atrybuty obrazka na max-width: 100% i display
+            blocki robimy inne działania dla responsywności mobilnej elementów.
+            Tworzymy przycisk ukrywany pod hamburgerem z prawej strony i na
+            końcu selektor klasy hamburger i event listener powiązany z
+            hamburgerem który uwidacznia nam nav oraz toggle na
+            navigation--open. Jest też atrybut do button aria-label do
+            opisywania przycisku.
           </p>
         </article>
       </section>

@@ -105,6 +105,33 @@
             Właściwości background-image, background-position,
             background-repeat, -attachment, -origin, -clip, -color, -size.
           </p>
+          <h3 class="tertiary__heading">Grid</h3>
+          <p>
+            Grid służy do budowania layoutu. Numeracja siatki zaczyna się od 1.
+            Display: grid. Grid-template-columns: wartości po spacji tworzy
+            kolumny o podanej szerokości. Rows działa podobnie. Jednostka fr -
+            jeżeli łacznie kolumny mają jakąś ich wartość to stanowią potem
+            odpowiedni ułamek całości. Mozna też użyć repeat(ilerazy,wartość).
+            Column-gap tworzy przerwy między komórkami grida, row-gap podobnie.
+            minmax(min, max) również jako szerokość kolumny.
+            Grid-template-areas: "element element" "x x" tworzy elementy w
+            gridzie. Grid-area: header wskazuje gdzie jest element. Column i
+            row-gap. Grid-row-start (również column i end) pozwala wyzaczyć
+            numeryczny początek wiersza wg. siatki, ale zamiast tego można
+            podawać nazwy (kwadratowe nawiasy między szerokościami w grid
+            template) i span liczba na rozciągnięcie kolumn. Jest też grid-area
+            który łączy powyższe. Grid uzupełnia, nie zastępuje flexboxa.
+          </p>
+          <h3 class="tertiary__heading">Responsywność</h3>
+          <p>
+            @media typ, media feature (color, aspect-ratio...) które można
+            łączyć przez and, not i przecinka. Jest traktowany jak osobny plik
+            css w środku np. z własnym body, definiowane po wszystkich
+            elementach na końcu pliku. Można np. ustawić różne zachowanie strony
+            na różnych rozdzielczościach, oddzielają je tzw. breakpointy.
+            Mobile-first to ustalenie strony na mobilne systemy a potem
+            dostosowanie na te z większym ekranem.
+          </p>
           <h3 class="tertiary__heading">Inne wiadomości</h3>
           <p>
             Color: inherit pobiera atrybut z wyższego rzędu.
@@ -117,9 +144,7 @@
             <a href="https://caniuse.com/"
               >Strona do sprawdzania kompatybilności z przeglądarkami</a
             >
-            <a href="https://figma.com/"
-              >Strona do grupowego cięcia grafik</a
-            >
+            <a href="https://figma.com/">Strona do grupowego cięcia grafik</a>
           </p>
         </article>
       </section>

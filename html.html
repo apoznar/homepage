@@ -75,6 +75,31 @@
           wiersze tr i kolumny td. Nagłówek tabeli thead, komórka w nagłówku th.
           Ciało tabeli - tbody. Caption - opis tabeli.
         </p>
+        <h3 class="tertiary__heading">Formularze</h3>
+        <p>
+          Znacznik form i elementy input (w znaczniku p) - ten może mieć atrybut
+          name, id. Znacznik label tworzy opis pola, atrybut for u niego
+          powinien odnosić się do id form aby był połączony. Label może też
+          okalać form - jako drugi sposób. Element input może mieć type=text,
+          value (domyślna wartość), placeholder (tekst podpowiedzi, nie
+          zastępuje atrybutu label). Możemy nadać im klasy i zrobić elementom
+          display block i width 100%. Znacznik fieldset to grupa pól a legend to
+          opis tej grupy. Typ radio z inputa występuje z name, trzeba opakować w
+          labelu z nazwą. Typ checkbox, może mieć wartość checked oraz
+          type(number, tel, email, password, file), range (obok min, max i step;
+          możemy przez DOM sprawdzić wartość). Element select tworzy listę do
+          wyboru z elementami option (mogą być z value). Znacznik textarea służy
+          do publikowania większych treści. Input type submit wysyła formularz.
+          Aby wysyłać formularze dodajemy do form atrybut action z url gdzie go
+          wysyłamy. Żądanie typu GET dopisuje zebrane dane do adresu (bierze
+          atrybut value)- jest domyślne. Metoda POST wysyła wartości w formie
+          form data bez uwidocznienia w adresie. Mamy jeszcze wartość enctype i
+          ona mówi czy to jest zwykły formularz czy coś jeszcze jest na tej
+          stronie (np. pliki). Poprzez stronę dev.cotenfrontend.pl można
+          sprawdzić uwidocznienie danych obiema metodami. Atrybut required
+          wymaga podania danych. Atrybut pattern pozwala na używanie wyrażeń
+          regularnych.
+        </p>
         <h3 class="tertiary__heading">HTML - przydatne linki</h3>
         <p>
           <a
@@ -85,6 +110,9 @@
           ><br />
           <a href="https://validator.w3.org/nu/#textarea"
             >Strona do sprawdzenia poprawności kodu HTML</a
+          ><br />
+          <a href="http://html5pattern.com/names"
+            >Strona do sprawdzenia wyrażeń regularnych</a
           >
         </p>
       </section>

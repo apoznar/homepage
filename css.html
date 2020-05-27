@@ -140,6 +140,33 @@
             Mobile-first to ustalenie strony na mobilne systemy a potem
             dostosowanie na te z większym ekranem.
           </p>
+          <h3 class="tertiary__heading">Pseudoelementy i pseudoselektory</h3>
+          <p>
+            Takie jak content: "", element::before treść element::after. Dokleja
+            treść z content przed lub po elemencie, możemy mu np dodać element
+            blokowy czy kolor. Pseudoklasa ':' - hover (po najechaniu myszką),
+            visited (linki które widzieliśmy) i focus (efekty przy najechaniu
+            tabulatrem), również first-child na pierwsze dziecko elementu,
+            analogicznie last-child. Również not(selektor) kiedy chcemy żeby coś
+            nie działało na wskazane klasy.
+          </p>
+          <h3 class="tertiary__heading">SASS/SCSS</h3>
+          <p>
+            SASS to preprocesor CSS. SCSS jest prostszy, zamienia .scss na .css.
+            Wprowadza zmienne z dolarem. Można dodać @mixin jako selektor i
+            potem wpisać w dowolnym miejscu @include nazwa_mixina. Możemy dodać
+            parametry jak w JS i zawrzeć je w środku a następnie wywoływać je w
+            dowolnych miejscach. @extend działa podobnie ale korzysta sie z
+            selektora np. .font-style i wyrzuca go na górę pliku - rzadko
+            korzystane. Parent selektor & - dodany w środku selektora np.
+            &__title {} zamyka nam w klamrach elementy będące dziećmi danego
+            elementu i upraszcza kod dopisując wszystko co jest nad nim. NPM po
+            instalacji pakietu sass może renderować plik scss do css za pomocą
+            npx node-sass main.scss main.css. Przy każdych zmianach trzeba
+            nadpisywać. Dodanie parametru -w będzie robiło to automatycznie przy
+            zmianach scss. Błąd w składni też się pojawia ctrl+c wychodzi. Warto
+            wstawić pod skrypt i uruchamiać przez npm run sass.
+          </p>
           <h3 class="tertiary__heading">Inne wiadomości</h3>
           <p>
             Color: inherit pobiera atrybut z wyższego rzędu.
@@ -153,6 +180,12 @@
               >Strona do sprawdzania kompatybilności z przeglądarkami</a
             >
             <a href="https://figma.com/">Strona do grupowego cięcia grafik</a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"
+              >PSeudoklasy</a
+            >
+            <a href="https://sass-lang.com/documentation">SASS</a>
+            <a href="https://www.sassmeister.com">SASS Meister</a>
           </p>
         </article>
       </section>

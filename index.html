@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Strona główna</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <header class="index__header">
+    <header class="header__homepage">
       <button class="hamburger hamburger--js" aria-label="Otwórz menu">
         🍔
       </button>
@@ -32,20 +32,24 @@
 
     <main class="main">
       <header class="main__header" id="top">
-        <h1 class="primary__heading">
+        <h1 class="primary__heading--homepage">
           Moje notatki z uczestnictwa w 14-tygodniowym kursie "Co Ten Frontend"
           prowadzonym przez Macieja Korsana.
         </h1>
-        <p class="index__description">
+        <p class="paragraph__description--homepage">
           To jest strona główna. Aby przejść do odpowiedniej sekcji kliknij na
-          odpowiedni tytuł w oknie nawigacyjnym.
+          odpowiedni tytuł w oknie nawigacyjnym u góry strony.
         </p>
       </header>
 
-      <img class="index__picture" src="images/wtf.png" alt="Logo kursu WTF" />
-      <p class="test"> Testowanie SCSS </p>
+      <img
+        class="picture__homepage"
+        src="images/wtf.png"
+        alt="Logo kursu WTF"
+      />
       <footer class="footer">
-        Są to podstawy frontend stworzone przy pomocy kursu WTF Macieja Korsana.
+        Jest to strona stworzona przez Adama Poznara w celu nauki technologii
+        frontendowych. <br />
         <a class="footer__link" href="#top">Wróć na górę strony.</a>
       </footer>
       <script src="main.js"></script>

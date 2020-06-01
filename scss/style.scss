@@ -26,6 +26,9 @@ section {
 h1 {
   color: blue;
   text-align: center;
+  &::before {
+    content: 'Witam!';
+  }
 }
 
 p {
@@ -53,10 +56,28 @@ h3 {
   }
 }
 
-.header__homepage {
+.header {
   min-height: 60px;
-  top: 0;
-  width: 100%;
+  &__homepage {
+    top: 0;
+    width: 100%;
+  }
+  &__html {
+    top: 0;
+    width: 100%;
+  }
+  &__css {
+    top: 0;
+    width: 100%;
+  }
+  &__js {
+    top: 0;
+    width: 100%;
+  }
+  &__other {
+    top: 0;
+    width: 100%;
+  }
 }
 
 .hamburger {
@@ -118,10 +139,40 @@ h3 {
 
 .secondary__heading {
   background-color: indianred;
+  &--homepage {
+    background-color: indianred;
+  }
+  &--html {
+    background-color: indianred;
+  }
+  &--css {
+    background-color: indianred;
+  }
+  &--js {
+    background-color: indianred;
+  }
+  &--other {
+    background-color: indianred;
+  }
 }
 
 .tertiary__heading {
   background-color: lightcyan;
+  &--homepage {
+    background-color: lightcyan;
+  }
+  &--html {
+    background-color: lightcyan;
+  }
+  &--css {
+    background-color: lightcyan;
+  }
+  &--js {
+    background-color: lightcyan;
+  }
+  &--other {
+    background-color: lightcyan;
+  }
 }
 
 .paragraph__description {
@@ -143,8 +194,23 @@ h3 {
   }
 }
 
-.picture__homepage {
+.picture {
   position: static;
+  &__homepage {
+    width: 100%;
+  }
+  &__html {
+    width: 100%;
+  }
+  &__css {
+    width: 100%;
+  }
+  &__js {
+    width: 100%;
+  }
+  &__other {
+    width: 100%;
+  }
 }
 
 .footer {

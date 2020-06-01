@@ -20,6 +20,8 @@ section {
 h1 {
   color: blue;
   text-align: center; }
+  h1::before {
+    content: 'Witam!'; }
 
 p {
   color: gray;
@@ -40,10 +42,23 @@ h3 {
   .main__header {
     color: #1460aa; }
 
-.header__homepage {
-  min-height: 60px;
-  top: 0;
-  width: 100%; }
+.header {
+  min-height: 60px; }
+  .header__homepage {
+    top: 0;
+    width: 100%; }
+  .header__html {
+    top: 0;
+    width: 100%; }
+  .header__css {
+    top: 0;
+    width: 100%; }
+  .header__js {
+    top: 0;
+    width: 100%; }
+  .header__other {
+    top: 0;
+    width: 100%; }
 
 .hamburger {
   position: absolute;
@@ -89,9 +104,29 @@ h3 {
 
 .secondary__heading {
   background-color: indianred; }
+  .secondary__heading--homepage {
+    background-color: indianred; }
+  .secondary__heading--html {
+    background-color: indianred; }
+  .secondary__heading--css {
+    background-color: indianred; }
+  .secondary__heading--js {
+    background-color: indianred; }
+  .secondary__heading--other {
+    background-color: indianred; }
 
 .tertiary__heading {
   background-color: lightcyan; }
+  .tertiary__heading--homepage {
+    background-color: lightcyan; }
+  .tertiary__heading--html {
+    background-color: lightcyan; }
+  .tertiary__heading--css {
+    background-color: lightcyan; }
+  .tertiary__heading--js {
+    background-color: lightcyan; }
+  .tertiary__heading--other {
+    background-color: lightcyan; }
 
 .paragraph__description {
   text-align: center; }
@@ -106,8 +141,18 @@ h3 {
   .paragraph__description--other {
     background-color: #e0c3fc; }
 
-.picture__homepage {
+.picture {
   position: static; }
+  .picture__homepage {
+    width: 100%; }
+  .picture__html {
+    width: 100%; }
+  .picture__css {
+    width: 100%; }
+  .picture__js {
+    width: 100%; }
+  .picture__other {
+    width: 100%; }
 
 .footer {
   color: green; }

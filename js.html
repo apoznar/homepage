@@ -99,6 +99,33 @@
             możemy sobie zdefiniować w package.json. Wpisujemy je w "scripts" i
             potem np. komendę start uruchamiamy poprzez npm run start.
           </p>
+          <h3 class="tertiary__heading--js">Importowanie modułów</h3>
+          <p>
+            Istnieją moduły z CommonJS i ES6, ale korzystamy głównie z tych
+            drugich. Musimy do odnośnika do script.js dodać type="module".
+            Eksportowane funkcje poprzedzamy słowem kluczowym export, a w pliku
+            do którego importujemy słowem import {eksportowana_funkcja} from
+            './sciezka.js'. Jest też opcja export default nazwa (przy imporcie
+            nie podajemy nawiasów {}). Można zrobić też import moduł as
+            krótsza_nazwa. Import * as newName importuje wszystko z podanej
+            ścieżki. Robimy w wierszu npm init -y, potem npm install moment.
+          </p>
+          <h3 class="tertiary__heading--js">Webpack</h3>
+          <p>
+            Link do webpacka - https://webpack.js.org/. Plik wejściowy to
+            domyślnie ./src/index.js (trzeba go zrobić). Wyjściowy
+            ./dist/main.js. Istnieje też loader który pozwala na odczytywanie
+            plików innych niż JS. Istnieją też pluginy. Mode development i
+            production. WTF Webpack Starter Kit ma serwer lokalny z
+            autoodświeżaniem, wsparcie dla scss i sourcemap, minifikację, babel
+            i publikację na github pages. Po sklonowaniu npm install a potem npm
+            run start tworzy nam serwer. Trzeba stworzyć informacje o nowym
+            pliku w commonie i restartować serwer. W main.scss import ze znakiem
+            tyldy ściągnie nam zewnętrzne paczki. Npm run build. Dist jest
+            wynikiem naszej pracy, jego zawartość publikujemy na serwerze - nie
+            edytujemy go manualnie. Po pushowaniu zmian na gicie npm run publish
+            przesuwa zmiany na inny branch.
+          </p>
         </article>
       </section>
       <footer class="footer">
